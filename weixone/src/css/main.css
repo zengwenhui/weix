@@ -97,9 +97,12 @@ li, ul {
     position: relative; }
     .mymusic .music-box .music-bo {
       position: absolute;
+      transform-origin: 50% 50%;
       width: 100%;
       height: 100%;
       z-index: 80; }
+      .mymusic .music-box .music-bo.start {
+        animation: rotat 1s linear infinite; }
       .mymusic .music-box .music-bo img {
         width: 100%;
         height: 100%; }
@@ -111,6 +114,11 @@ li, ul {
       background: url(../images/music-bj.gif) no-repeat;
       background-size: contain; }
 
+@keyframes rotat {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(180deg); } }
 /*png*/
 .myset {
   width: 0.85938rem;
@@ -184,6 +192,8 @@ li, ul {
   top: 37.89682539682539%;
   left: 4.84375%;
   z-index: 5; }
+  .box1 .b1-box.start {
+    animation: rToL 2s  5.5s  infinite forwards; }
   .box1 .b1-box img {
     width: 100%;
     height: 100%; }
@@ -207,6 +217,17 @@ li, ul {
     font-size: 0.5rem;
     line-height: 0.5rem; }
 
+@keyframes rToL {
+  0% {
+    transform: translateX(4.84375%); }
+  35% {
+    transform: translateX(14.84375%); }
+  50% {
+    transform: translateX(4.84375%); }
+  85% {
+    transform: translateX(-6.84375%); }
+  100% {
+    transform: translateX(4.84375%); } }
 .box2 .box2-acter {
   width: 64.84375%;
   height: 60.21825396825397%;
@@ -466,5 +487,306 @@ li, ul {
     color: #1e1e1e;
     line-height: 0.5625rem;
     font-family: "黑体"; }
+
+.box5 .box5_top_bj {
+  width: 59.375%;
+  height: 14.484126984126986%;
+  top: 1.3888888888888888%;
+  left: 1.7187500000000002%;
+  z-index: 5; }
+.box5 .box5-bj-right {
+  width: 22.1875%;
+  height: 5.952380952380952%;
+  top: 44.047619047619044%;
+  left: 74.21875%;
+  z-index: 5; }
+.box5 .box5-acter {
+  width: 97.1875%;
+  height: 51.28968253968254%;
+  top: 46.92460317460318%;
+  left: 1.7187500000000002%;
+  z-index: 10; }
+.box5 .box5-ul {
+  width: 75.3125%;
+  height: auto;
+  left: 14.539623260498047%;
+  top: 19.246031746031747%;
+  z-index: 5; }
+  .box5 .box5-ul span {
+    font-family: "黑体";
+    color: white;
+    font-size: 0.46875rem; }
+.box5 .box5-title {
+  width: 56.25%;
+  height: auto;
+  left: 14.534740447998045%;
+  top: 6.4484126984126995%;
+  z-index: 11; }
+  .box5 .box5-title span {
+    color: #1e1e1e;
+    font-size: 0.5625rem;
+    font-family: "黑体"; }
+
+.box6 .box6-bj {
+  width: 79.6875%;
+  height: 82.44047619047619%;
+  left: 10%;
+  top: 10.912698412698413%;
+  z-index: 1; }
+.box6 .box6-acter {
+  width: 76.25%;
+  height: 28.373015873015873%;
+  left: 11.875%;
+  top: 11.706349206349206%;
+  z-index: 5; }
+.box6 .box6-viedo {
+  width: 16.40625%;
+  height: 11.706349206349206%;
+  left: 41.25%;
+  top: 24.206349206349206%;
+  z-index: 6; }
+.box6 .box6-bj-center {
+  width: 59.06249999999999%;
+  height: 11.706349206349206%;
+  top: 44.14682539682539%;
+  z-index: 5;
+  left: 21.875%; }
+.box6 .box6-center-text {
+  width: 37.5%;
+  height: auto;
+  left: 35.3125%;
+  top: 47.22222222222222%;
+  z-index: 7; }
+  .box6 .box6-center-text span {
+    font-family: "黑体";
+    color: #666666;
+    font-size: 0.5625rem;
+    line-height: 0.5625rem; }
+.box6 .box6-title {
+  width: 56.25%;
+  height: auto;
+  top: 54.067460317460316%;
+  left: 33.75%;
+  z-index: 6; }
+  .box6 .box6-title span {
+    color: #666666;
+    font-size: 0.40625rem;
+    line-height: 0.40625rem;
+    font-family: "黑体"; }
+.box6 .box6-content {
+  width: 56.25%;
+  height: auto;
+  top: 58.23412698412699%;
+  left: 28.749999999999996%;
+  z-index: 6; }
+  .box6 .box6-content.rows_1 {
+    width: 21.875%;
+    top: 62.698412698412696%;
+    left: 39.0625%; }
+  .box6 .box6-content.rows_2 {
+    width: 44.6875%;
+    top: 67.26190476190477%;
+    left: 30%; }
+  .box6 .box6-content.rows_3 {
+    width: 44.6875%;
+    top: 71.62698412698413%;
+    left: 31.25%; }
+  .box6 .box6-content span {
+    color: white;
+    font-size: 0.40625rem;
+    font-family: "黑体"; }
+.box6 .box6-border {
+  width: 86.40625%;
+  height: 87.00396825396825%;
+  top: 8.928571428571429%;
+  left: 5.78125%;
+  z-index: 1; }
+
+.box7 .acter-left {
+  width: 32.1875%;
+  height: 30.357142857142854%;
+  left: 7.187499999999999%;
+  top: 25.793650793650798%;
+  z-index: 5; }
+.box7 .acter-center {
+  width: 25.156250000000004%;
+  height: 31.150793650793652%;
+  left: 37.8125%;
+  top: 33.92857142857143%;
+  z-index: 5; }
+.box7 .acter-right {
+  width: 33.75%;
+  height: 30.257936507936506%;
+  left: 59.84374999999999%;
+  top: 23.41269841269841%;
+  z-index: 5; }
+.box7 .box7-top-bj {
+  width: 51.09375000000001%;
+  height: 25.496031746031743%;
+  top: 6.349206349206349%;
+  left: 22.8125%;
+  z-index: 8; }
+.box7 .box7-bottom-bip {
+  width: 83.28125%;
+  height: 4.464285714285714%;
+  top: 84.02777777777779%;
+  left: 11.09375%;
+  z-index: 6; }
+.box7 .box7-bottom-bj {
+  width: 96.5625%;
+  height: 12.896825396825399%;
+  top: 67.06349206349206%;
+  left: 3.4375000000000004%;
+  z-index: 5; }
+.box7 .box7-email {
+  width: 66.5625%;
+  height: auto;
+  left: 16.09375%;
+  top: 71.92460317460318%;
+  z-index: 10; }
+  .box7 .box7-email span {
+    color: #666666;
+    font-family: "黑体";
+    font-size: 0.46875rem;
+    line-height: 0.5rem; }
+.box7 .box7-logo {
+  width: 17.1875%;
+  height: auto;
+  left: 42.65625%;
+  top: 93.05555555555556%;
+  z-index: 11; }
+  .box7 .box7-logo span {
+    color: #1e1e1e;
+    font-family: "黑体";
+    font-size: 0.75rem;
+    line-height: 0.75rem; }
+
+.box8 .b8-top-bj {
+  width: 51.09375000000001%;
+  height: 25.496031746031743%;
+  top: 6.349206349206349%;
+  left: 22.8125%;
+  z-index: 10; }
+.box8 .b8-bottom-log {
+  width: 19.375%;
+  height: auto;
+  top: 91.46825396825396%;
+  left: 43.75%;
+  z-index: 12; }
+  .box8 .b8-bottom-log span {
+    color: #1e1e1e;
+    font-family: "黑体";
+    font-size: 0.75rem;
+    line-height: 0.75rem; }
+.box8 .b9-form {
+  width: 84.375%;
+  height: auto;
+  left: 9.375%;
+  top: 31.746031746031743%;
+  z-index: 10; }
+  .box8 .b9-form form {
+    background: #89bded;
+    color: #fff;
+    width: auto;
+    height: auto;
+    padding: 0.625rem 0; }
+    .box8 .b9-form form .form-input {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 0.28125rem;
+      line-height: 1.0625rem; }
+      .box8 .b9-form form .form-input input {
+        width: 80%;
+        line-height: 1.0625rem;
+        background: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        margin: 0 auto;
+        color: #999;
+        text-indent: 0.375rem; }
+      .box8 .b9-form form .form-input .input-sub {
+        max-width: 80%;
+        width: auto;
+        height: auto;
+        background: #eb8233;
+        color: #fff;
+        padding: 0 0.625rem;
+        text-indent: 0rem; }
+
+.box9 .b9-top-text {
+  width: 69.6875%;
+  height: auto;
+  left: 20.15625%;
+  top: 11.507936507936508%;
+  z-index: 5; }
+  .box9 .b9-top-text span {
+    color: #fffb00;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-family: "黑体"; }
+.box9 .b9-code {
+  width: 37.96875%;
+  height: 24.107142857142858%;
+  top: 30.456349206349202%;
+  left: 30.625000000000004%;
+  z-index: 10; }
+.box9 .b9-acter-left {
+  width: 28.90625%;
+  height: 22.22222222222222%;
+  top: 40.27777777777778%;
+  left: 1.09375%;
+  z-index: 10; }
+.box9 .b9-acter-right {
+  width: 25.937500000000004%;
+  height: 26.785714285714285%;
+  top: 38.88888888888889%;
+  left: 68.59375%;
+  z-index: 10; }
+.box9 .b9-center-text {
+  width: 56.25%;
+  height: auto;
+  top: 57.53968253968254%;
+  left: 29.843750000000004%;
+  z-index: 10; }
+  .box9 .b9-center-text span {
+    font-family: "黑体";
+    font-size: 0.5625rem;
+    color: #1e1e1e;
+    line-height: 0.5625rem; }
+.box9 .b9-number {
+  width: 53.28125%;
+  height: 3.670634920634921%;
+  left: 24.84375%;
+  top: 71.62698412698413%;
+  z-index: 10; }
+.box9 .b9-qq {
+  width: 44.21875%;
+  height: 3.571428571428571%;
+  top: 78.07539682539682%;
+  left: 25.937500000000004%;
+  z-index: 10; }
+.box9 .b9-button {
+  width: 40%;
+  height: 7.142857142857142%;
+  top: 87.20238095238095%;
+  left: 28.59375%;
+  z-index: 10; }
+  .box9 .b9-button a {
+    width: 100%;
+    height: 100%;
+    background-color: #F28615; }
+    .box9 .b9-button a button {
+      border-radius: 25px;
+      border: 1px solid #F28615;
+      color: #fff;
+      width: 100%;
+      height: 100%;
+      background-image: url(../images/call.png);
+      background-repeat: no-repeat;
+      text-align: center;
+      background-position: 16px center;
+      background-color: #F28615;
+      font-size: 0.5625rem;
+      line-height: 1.125rem; }
 
 /*# sourceMappingURL=main.css.map */

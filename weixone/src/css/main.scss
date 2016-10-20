@@ -40,7 +40,10 @@ list-style:none;
   .music-box{
     width:100%;height:100%;position:relative;
     .music-bo{
-      position:absolute;
+      position:absolute; transform-origin: 50% 50%;
+      &.start{
+        animation:rotat 1s linear infinite;
+      }
       width:100%;height:100%;z-index:80;
       img{
         width:100%;height:100%;
@@ -51,7 +54,13 @@ list-style:none;
       background:url(../images/music-bj.gif) no-repeat;background-size:contain;
     }
   }
-
+}
+@keyframes rotat{
+  from{
+    transform:rotate(0deg);
+  }to{
+       transform:rotate(180deg);
+     }
 }
 /*png*/
 .myset{
@@ -74,3 +83,8 @@ list-style:none;
 @import "box2";
 @import "box3";
 @import "box4";
+@import "box5";
+@import "box6";
+@import "box7";
+@import "box8";
+@import "box9";

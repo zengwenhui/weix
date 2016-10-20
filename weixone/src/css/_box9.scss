@@ -1,0 +1,45 @@
+.box9{
+  .b9-top-text{
+    width:69.6875%;height:auto;left:20.15625%;top:11.507936507936508%;z-index:5;
+    span{
+      color:rgb(255, 251, 0);font-size:px2Rem(80);line-height:px2Rem(96);font-family:"黑体";
+    }
+  }
+  .b9-code{
+    width:37.96875%;height:24.107142857142858%;top:30.456349206349202%;left:30.625000000000004%;
+    z-index:10;
+  }
+  .b9-acter-left{
+    width:28.90625%;height:22.22222222222222%;top:40.27777777777778%;left:1.09375%;
+    z-index:10;
+  }
+  .b9-acter-right{
+    width:25.937500000000004%;height:26.785714285714285%;top:38.88888888888889%;left:68.59375%;
+    z-index:10;
+  }
+  .b9-center-text{
+    width:56.25%;height:auto;top:57.53968253968254%;left:29.843750000000004%;
+    z-index:10;
+    span{
+      font-family:"黑体";font-size:px2Rem(36);
+      color:rgb(30, 30, 30);line-height:px2Rem(36);
+    }
+  }
+  .b9-number{
+    width:53.28125%;height:3.670634920634921%;left:24.84375%;top:71.62698412698413%;z-index:10;
+  }
+  .b9-qq{
+    width:44.21875%;height:3.571428571428571%;top:78.07539682539682%;left:25.937500000000004%;z-index:10;
+  }
+  .b9-button{
+    width:40%;height:7.142857142857142%;top:87.20238095238095%;left:28.59375%;z-index:10;
+    a{
+      width:100%;height:100%;background-color:#F28615;
+      button{
+        border-radius:25px;border:1px solid #F28615;color:#fff;width:100%;height:100%;
+        background-image:url(../images/call.png);background-repeat: no-repeat;text-align:center;
+        background-position:16px center;background-color:#F28615;font-size:px2Rem(36);line-height:px2Rem(72);
+      }
+    }
+  }
+}

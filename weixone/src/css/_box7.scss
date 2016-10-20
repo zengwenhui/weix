@@ -1,0 +1,38 @@
+.box7{
+  .acter-left{
+    width:32.1875%;height:30.357142857142854%;left:7.187499999999999%;top:25.793650793650798%;
+    z-index:5;
+  }
+  .acter-center{
+    width:25.156250000000004%;height:31.150793650793652%;left:37.8125%;top:33.92857142857143%;
+    z-index:5;
+  }
+  .acter-right{
+    width:33.75%;height:30.257936507936506%;left:59.84374999999999%;top:23.41269841269841%;
+    z-index:5;
+  }
+  .box7-top-bj{
+    width:51.09375000000001%;height:25.496031746031743%;top:6.349206349206349%;left:22.8125%;
+    z-index:8;
+  }
+  .box7-bottom-bip{
+    width:83.28125%;height:4.464285714285714%;top:84.02777777777779%;left:11.09375%;
+    z-index:6;
+  }
+  .box7-bottom-bj{
+    width:96.5625%;height:12.896825396825399%;top:67.06349206349206%;left:3.4375000000000004%;
+    z-index:5;
+  }
+  .box7-email{
+   width:66.5625%;height:auto;left:16.09375%;top:71.92460317460318%;z-index:10;
+    span{
+      color:#666666;font-family:"黑体";font-size:px2Rem(30);line-height:px2Rem(32);
+    }
+  }
+  .box7-logo{
+    width:17.1875%;height:auto;left:42.65625%;top:93.05555555555556%;z-index:11;
+    span{
+   color: rgb(30, 30, 30);font-family:"黑体";font-size:px2Rem(48);line-height:px2Rem(48);
+    }
+  }
+}

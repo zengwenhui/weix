@@ -29,6 +29,9 @@
     }
   }
   .b1-box{
+    &.start{
+      animation:rToL 2s  5.5s  infinite forwards;
+    }
     width:82.8125%;height:62.10317460317461%;position:absolute;top:37.89682539682539%;left:4.84375%;
     z-index:5;
     img{
@@ -43,5 +46,22 @@
     width:26.25%;height:auto;position:absolute;top:85.41666666666666%;left:74.375%;
     z-index:6;
     span{font-family:"黑体";color:rgb(30, 30, 30);font-size:px2Rem(32);line-height:px2Rem(32);}
+  }
+}
+@keyframes rToL{
+  0%{
+    transform:translateX(4.84375%);
+  }
+  35%{
+    transform:translateX(14.84375%);
+  }
+  50%{
+    transform:translateX(4.84375%);
+  }
+  85%{
+    transform:translateX(-6.84375%);
+  }
+  100%{
+    transform:translateX(4.84375%);
   }
 }

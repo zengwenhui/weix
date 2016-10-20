@@ -1,0 +1,28 @@
+.box8{
+  .b8-top-bj{
+    width:51.09375000000001%;height:25.496031746031743%;top:6.349206349206349%;left:22.8125%;z-index:10;
+  }
+  .b8-bottom-log{
+    width:19.375%;height:auto;top:91.46825396825396%;left:43.75%;z-index:12;
+    span{
+      color: rgb(30, 30, 30);font-family:"黑体";font-size:px2Rem(48);line-height:px2Rem(48);
+    }
+  }
+  .b9-form{
+  width:84.375%;height:auto;left:9.375%;top:31.746031746031743%;z-index:10;
+    form{
+      background:#89bded;color:#fff;width:auto;height:auto;padding:px2Rem(40) 0;
+      .form-input{
+        width:100%;text-align:center;margin-bottom:px2Rem(18);line-height:px2Rem(68);
+        input{
+          width:80%;line-height:px2Rem(68);background:#fff;border:1px solid rgba(0,0,0,.15);
+          border-radius:4px;margin:0 auto;color:#999;text-indent:px2Rem(24);
+        }
+        .input-sub{
+          max-width:80%;
+          width:auto;height:auto;background:#eb8233;color:#fff;padding:0 px2Rem(40);text-indent:px2Rem(0);
+        }
+      }
+    }
+  }
+}
