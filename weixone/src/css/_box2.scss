@@ -1,0 +1,48 @@
+.box2{
+  .box2-acter{
+    width:64.84375%;height:60.21825396825397%;position:absolute;top:20.436507936507937%;
+    left:14.0625%;z-index:10;
+  }
+  .boxRedbj{
+    width:100%;height:29.86111111111111%;position:absolute;top:70.13888888888889%;
+    left:0;z-index:1;
+  }
+  .box-gress{
+    width:85.78125%;height:24.702380952380953%;position:absolute;
+    top:48.80952380952381%;left:5.78125%;z-index:2;
+  }
+  .box2-stars{
+    width:85.3125%;height:44.047619047619044%;position:absolute;top:14.682539682539684%;left:7.34375%;
+  z-index:4;
+  }
+  .bo2-top-bj{
+    position:absolute;width:79.6875%;height:20.238095238095237%;top:1.984126984126984%;left:7.34375%;z-index:5;
+  }
+  .bj-text{
+   width:56.25%;height:auto;position:absolute;top:9.126984126984127%;left:25.624999999999996%;
+  z-index:6;
+    span{
+      font-family:"黑体";color:rgb(30, 30, 30);font-size:px2Rem(56);line-height:px2Rem(56);
+    }
+  }
+  .box2-bottom-bj{
+    width:88.75%;height:22.817460317460316%;left:9.375%;position:absolute;
+    top:77.18253968253968%;z-index:2;
+  }
+
+  .box2-bottom-t1{
+    width:61.25000000000001%;position:absolute;height:auto;left:23.4375%;top:83.53174603174604%;
+    z-index:3;
+    span{
+      font-family:"黑体";font-size:px2Rem(48);color:#666666;line-height:px2Rem(48);
+    }
+  }
+  .box2-bottom-t2{
+    width:70.625%;position:absolute;height:auto;left:20.3125%;top:89.68253968253968%;
+    z-index:3;
+    span{
+      font-family:"黑体";font-size:px2Rem(48);color:#666666;line-height:px2Rem(48);
+    }
+  }
+
+}

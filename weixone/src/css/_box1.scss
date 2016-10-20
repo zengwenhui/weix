@@ -1,0 +1,47 @@
+.box1{
+  .b1-bj{
+    position:absolute;width:83.59375%;height:74.0079365079365%;left:7.656250000000001%;top:0;
+    z-index:1;
+    img{
+      @extend %wh100;
+    }
+  }
+  .b1-text{
+    width:69.9%;height:18.9%;position:absolute;left:4.53%;top:2.48%;z-index:2;
+  }
+  .b1-text1{
+    width: 71.40625%;height:13.988095238095239%;position:absolute;z-index:2;
+    top:17.261904761904763%;left:20.46875%;
+  }
+  .b1-log{
+    position:absolute;z-index:3;width:35.9375%;height:19.047619047619047%;
+    left:2.5%;top:30.158730158730158%;
+    img{
+      transform:rotate(33deg);
+    }
+  }
+  .b1-log-title{
+    position:absolute;z-index:4;width:19.375%;height:auto;top:36.904761904761905%;
+    line-height:px2Rem(64);left:11.875%;
+    span{
+      color:rgb(30, 30, 30);
+      font-size:px2Rem(64);font-family:"黑体";
+    }
+  }
+  .b1-box{
+    width:82.8125%;height:62.10317460317461%;position:absolute;top:37.89682539682539%;left:4.84375%;
+    z-index:5;
+    img{
+      width:100%;height:100%;
+    }
+  }
+  .box1-bottom1-bj{
+    width:30%;height:12.103174603174603%;position:absolute;top:81.94444444444444%;
+    z-index:4;left:69.0625%;
+  }
+  .box1-bottom1-bj-text{
+    width:26.25%;height:auto;position:absolute;top:85.41666666666666%;left:74.375%;
+    z-index:6;
+    span{font-family:"黑体";color:rgb(30, 30, 30);font-size:px2Rem(32);line-height:px2Rem(32);}
+  }
+}

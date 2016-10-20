@@ -1,0 +1,99 @@
+.box2 {
+  @extend %bx;
+
+  .box2-tent {
+    &.start {
+      .box2-shangp {
+        &.to1 {
+          animation: box2-shangp1 1s ease-out 2.2s forwards;
+        }
+        &.to2 {
+          animation: box2-shangp2 1s ease-out 2.2s forwards;
+        }
+        &.to3 {
+          animation: box2-shangp3 1s ease-out 2.4s forwards;
+        }
+        &.to4 {
+          animation: box2-shangp4 1s ease-out 2.4s forwards;
+        }
+      }
+    }
+    .box2-shangp {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: px2Rem(210);
+      height: px2Rem(216);
+      background: #fff;
+      opacity: 0;
+      &.to1 {
+        margin-top: px2Rem(-400);
+      }
+      &.to2 {
+        margin-top: px2Rem(-400);
+      }
+      &.to3 {
+        margin-top: px2Rem(-112);
+      }
+      &.to4 {
+        margin-top: px2Rem(-112);
+        margin-left: px2Rem(-220);
+      }
+      .box2-pic-box {
+        position: relative;
+        width: px2Rem(184);
+        height: px2Rem(158);
+        padding-top: px2Rem(10);
+        padding-left: px2Rem(13);
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .shangp-price {
+          position: absolute;
+          width: px2Rem(210);
+          height: px2Rem(62);
+          background: orangered;
+          top: px2Rem(168);
+          left: 0;
+          z-index: 10;
+          p {
+            text-align: center;
+            font-size: px2Rem(30);
+            color: #fff;
+            line-height: px2Rem(62);
+          }
+        }
+      }
+    }
+  }
+
+}
+@keyframes box2-shangp1{
+  from{
+    margin-left:px2Rem(200);opacity:0;
+  }to{
+       margin-left:px2Rem(16);opacity:1;
+     }
+}
+@keyframes box2-shangp2{
+  from{
+    margin-left:px2Rem(-400);opacity:0;
+  }to{
+       margin-left:px2Rem(-220);opacity:1;
+   }
+}
+@keyframes box2-shangp3{
+  from{
+    margin-left:px2Rem(200);opacity:0;
+  }to{
+       margin-left:px2Rem(16);opacity:1;
+   }
+}
+@keyframes box2-shangp4{
+  from{
+    margin-left:px2Rem(-400);opacity:0;
+  }to{
+       margin-left:px2Rem(-220);opacity:1;
+   }
+}

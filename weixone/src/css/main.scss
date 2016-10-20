@@ -1,0 +1,76 @@
+*{
+  margin:0;padding:0;
+}
+html,body{width:100%;height:100%;}
+a{
+  text-decoration:none;
+}
+img{
+  width:100%;height:100%;
+}
+
+%wh100{
+width:100%;height:100%;
+}
+$fontsize:64;
+@function px2Rem($px){
+  @return $px/$fontsize + rem;
+}
+li,ul{
+list-style:none;
+}
+@for $i from 1 to 10{
+  .box#{$i}{
+    background:url(../images/bj.png) no-repeat;
+    background-size:cover;width:100%;height:100%;
+  }
+}
+.swiper-container{
+  width:100%;height:100%;max-width:px2Rem(640);
+}
+.absolu{
+  position:absolute;
+}
+/*music*/
+.mymusic{
+  position:absolute;
+  width:px2Rem(80);height:px2Rem(80);
+  right:px2Rem(30);top:px2Rem(40);
+  z-index:100;
+  .music-box{
+    width:100%;height:100%;position:relative;
+    .music-bo{
+      position:absolute;
+      width:100%;height:100%;z-index:80;
+      img{
+        width:100%;height:100%;
+      }
+    }
+    .music-bj{
+      width:px2Rem(100);height:px2Rem(100);position:absolute;z-index:100;
+      background:url(../images/music-bj.gif) no-repeat;background-size:contain;
+    }
+  }
+
+}
+/*png*/
+.myset{
+  width:px2Rem(55);height:auto;position:absolute;top:93.055%;left:42.656%;z-index:100;
+  .set-png{
+    display:block;background:url(../images/set.png) no-repeat;width:px2Rem(48);height:px2Rem(36);
+   position:absolute;left:50%;
+  animation:toUp 1.5s infinite ease-in-out;
+  }
+
+}
+@keyframes toUp{
+  from{
+    top:px2Rem(24);opacity:1;
+  }to{
+    top:px2Rem(0);opacity:0;
+     }
+}
+@import "box1";
+@import "box2";
+@import "box3";
+@import "box4";

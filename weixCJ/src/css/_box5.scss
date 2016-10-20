@@ -1,0 +1,30 @@
+/*box5*/
+.box5{
+  @extend %bx;
+  .box5-m{
+    position:absolute;top:50%;left:50%;width:px2Rem(578);height:px2Rem(454);
+    margin-top:px2Rem(-414);margin-left:px2Rem(-258);z-index:10;
+    a{
+      display:block;position:relative;
+      .absolute-img{
+        position:absolute;z-index:11;width:px2Rem(382);height:px2Rem(382);
+        left:50%;top:50%;margin-top:px2Rem(-181);margin-left: px2Rem(-225);
+      }
+      img{
+        width:100%;height:100%;
+      }
+    }
+  }
+  .box5-title{
+    width:px2Rem(512);
+    height:px2Rem(114);position:absolute;top:50%;left:50%;
+    margin-top:px2Rem(54);margin-left:px2Rem(-254);z-index:12;
+    a{
+      display:block;width:100%;height:100%;font-size:px2Rem(28);color:#fff;
+      p{
+        text-align:center;color:#fff;
+      }
+    }
+  }
+
+}

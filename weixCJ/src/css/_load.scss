@@ -1,0 +1,9 @@
+.lzload{
+  opacity:0;
+  width:px2Rem(300);height:px2Rem(300);margin-left:px2Rem(-150);
+  margin-top:px2Rem(-150);z-index:100;background:red;
+  position:fixed;left:50%;top:50%;
+  img{
+    opacity:1;width:100%;height:100%;
+  }
+}
